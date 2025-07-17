@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenGrow - Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5fff5;
+      color: #2e4d2e;
+    }
+
+    .navbar {
+      background-color: #2e7d32;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      flex-wrap: wrap;
+      color: #fff;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(46, 125, 50, 0.6), rgba(46, 125, 50, 0.6)),
+                  url('https://images.unsplash.com/photo-1581607346630-b5df6838a161?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .nav a {
+        margin: 0.5rem 0 0 0;
+      }
+
+      .hero h2 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">🌿 GreenGrow</h1>
+    <nav class="nav">
+      <a href="planting.html">Planting</a>
+      <a href="pesticides.html">Pesticides</a>
+      <a href="seasonal.html">Seasonal Crops</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Organic Farming</h2>
+    <p>Explore detailed guides on planting methods, natural pest control, seasonal crop choices, and more.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 GreenGrow. All rights reserved.</p>
+  </footer>
+</body>
+</html>
